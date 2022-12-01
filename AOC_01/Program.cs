@@ -11,18 +11,18 @@ try
     using (StreamReader sr = new StreamReader(filePath))
     {
         string line;
-        int number = 0;
+        int numberOfCalories = 0;
 
         while((line = sr.ReadLine()) != null)
         {
             int.TryParse(line, out int result);
-            number = number + result;
+            numberOfCalories = numberOfCalories + result;
 
             if(result == 0)
             {
-                Elf elf = new Elf(number);
+                Elf elf = new Elf(numberOfCalories);
                 listOfElfs.Add(elf);
-                number = 0;
+                numberOfCalories = 0;
             }
         }
     }
