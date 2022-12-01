@@ -32,6 +32,7 @@ catch (Exception e)
     Console.WriteLine(e.Message);
 }
 
+// Sort list by descending
 List<Elf> sortedList = listOfElfs.OrderByDescending(elf => elf.CarriedCalories).ToList();
 
 // Asnwer to the first part
