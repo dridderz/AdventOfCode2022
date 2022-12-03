@@ -31,15 +31,15 @@ catch (Exception ex)
 
 int GetScoreFromResult(int opponentChoice, int myChoice)
 {
-    if ((myChoice + 1) % 3 == opponentChoice) //Opponent won
+    if ((myChoice + 1) % 3 == opponentChoice)
     {
         return 0;
     }
-    else if(myChoice == opponentChoice) //Draw
+    else if(myChoice == opponentChoice)
     {
         return 3;
     }
-    else //I Won
+    else
     {
         return 6;
     }
