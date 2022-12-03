@@ -74,8 +74,8 @@ try
         {
             Rucksack rucksack = new Rucksack();
             rucksack.Contents = SetPriority(line.Substring(0, line.Length));
-            rucksack.CompartmentOne = SetPriority(line.Substring(0, (line.Length / 2)));
-            rucksack.CompartmentTwo = SetPriority(line.Substring((line.Length / 2), (line.Length / 2)));
+            rucksack.CompartmentOne = SetPriority(line.Substring(0, line.Length / 2));
+            rucksack.CompartmentTwo = SetPriority(line.Substring(line.Length / 2, line.Length / 2));
             rucksacks.Add(rucksack);
         }
     }
