@@ -5,7 +5,7 @@
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
-string filePath = "C:\\Users\\Danie\\source\\repos\\AdventOfCode2022\\AOC_02\\Resources\\rock_paper_scissors_input.txt";
+string filePath = @"..\\..\\..\\Resources\\rock_paper_scissors_input.txt";
 
 try
 {

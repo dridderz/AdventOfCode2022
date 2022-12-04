@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 
 List<Elf> listOfElfs = new List<Elf>();
-string filePath = "C:\\Users\\Danie\\source\\repos\\AdventOfCode2022\\AOC_0101\\resources\\index.txt";
+string filePath = @"..\\..\\..\\resources\\index.txt";
 
 // Collect the needed data and process it as needed.
 try

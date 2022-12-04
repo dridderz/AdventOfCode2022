@@ -1,8 +1,8 @@
 ﻿
 using AOC_03;
 
-var file = "C:\\Users\\Danie\\source\\repos\\AdventOfCode2022\\AOC_03\\resources\\input.txt";
-var exampleFile = "C:\\Users\\Danie\\source\\repos\\AdventOfCode2022\\AOC_03\\resources\\exampleInput.txt";
+var file = @"..\\..\\..\\resources\\input.txt";
+var exampleFile = @"..\\..\\..\\resources\\exampleInput.txt";
 
 string[] code =
             {
