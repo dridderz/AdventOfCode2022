@@ -1,6 +1,5 @@
 ﻿using AOC_05;
 
-var exampleFile = @"..\\..\\..\\resources\\example_input.txt";
 var file = @"..\\..\\..\\resources\\input.txt";
 string line;
 List<List<int>> listOfInstructions = new List<List<int>>();
