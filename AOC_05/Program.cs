@@ -72,14 +72,7 @@ void PartTwoSolution()
     }
 }
 
-
-
-Console.WriteLine(boxStorage.GetCorrectColumn(1).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(2).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(3).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(4).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(5).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(6).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(7).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(8).Last());
-Console.WriteLine(boxStorage.GetCorrectColumn(9).Last());
+for(int i = 0; i < 9; i++)
+{
+    Console.WriteLine(boxStorage.GetCorrectColumn(i+1).Last());
+}
